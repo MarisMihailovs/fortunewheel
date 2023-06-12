@@ -133,3 +133,15 @@ body {
     --i: 8;
     --clr: #a9189f;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 70vw;
+        height: calc(70vw);
+    }
+
+    .container .wheel {
+        width: 70vw;
+        height: calc(70vw);
+    }
+}
