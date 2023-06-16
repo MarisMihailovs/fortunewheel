@@ -1,6 +1,7 @@
 const wheel = document.querySelector('.wheel');
 const spinBtn = document.querySelector('.spinBtn');
-const audio = document.querySelector('audio');
+const audio = document.querySelector('.sound');
+const audioApplause = document.querySelector('.applause');
 let value = Math.ceil(Math.random() * 3600);
 
 spinBtn.addEventListener('click', () => {
@@ -15,5 +16,7 @@ spinBtn.addEventListener('click', () => {
             particleCount: 100,
             spread: 180
         });
+        audioApplause.play();
     }, 5000);
+    audioApplause.currentTime = 0;
 });
