@@ -11,5 +11,9 @@ spinBtn.addEventListener('click', () => {
     setTimeout(() => {
         audio.pause();
         audio.currentTime = 0;
+        window.confetti({
+            particleCount: 100,
+            spread: 180
+        });
     }, 5000);
 });
