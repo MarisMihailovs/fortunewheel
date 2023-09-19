@@ -14,6 +14,14 @@ body {
     background-color: #3c3c3c;
 }
 
+img {
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    width: 210px;
+    height: 70px;
+}
+
 .container {
     position: relative;
     width: 40vw;
