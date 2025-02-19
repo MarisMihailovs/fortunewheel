@@ -31,7 +31,7 @@ img.prize {
 
 .container .wheel .number span.emoji {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 3.2rem;
     transform: rotate(-90deg) translateX(0%);
 }
 
