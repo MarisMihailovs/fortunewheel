@@ -94,8 +94,8 @@ img.prize {
     height: 50%;
     background: var(--clr);
     transform-origin: bottom right;
-    transform: rotate(calc(36deg * var(--i)));
-    clip-path: polygon(0 0, 48% 0, 100% 100%, 0 48%);
+    transform: rotate(calc(45deg * var(--i)));
+    clip-path: polygon(0 0, 60% 0, 100% 100%, 0 60%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ img.prize {
 .container .wheel .number span {
     font-size: 2rem;
     position: relative;
-    transform: rotate(45deg);
+    transform: rotate(40deg);
     color: #fff;
 }
 
@@ -156,15 +156,7 @@ img.prize {
     --clr: #a9189f;
 }
 
-.number:nth-child(9) {
-    --i: 9;
-    --clr: #18a92b;
-}
 
-.number:nth-child(10) {
-    --i: 10;
-    --clr: #c7989b;
-}
 
 @media only screen and (max-width: 600px) {
     .container {
