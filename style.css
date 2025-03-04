@@ -38,7 +38,7 @@ img.prize {
 
 .container {
     position: relative;
-    width: 40vw;
+    width: 60vw;
     height: calc(40vw);
     display: flex;
     justify-content: center;
