@@ -210,15 +210,3 @@ img.prize {
     --i: 18;
     --clr: #a9ded8;
 }
-
-@media only screen and (max-width: 600px) {
-    .container {
-        width: 70vw;
-        height: calc(70vw);
-    }
-
-    .container .wheel {
-        width: 70vw;
-        height: calc(70vw);
-    }
-}
