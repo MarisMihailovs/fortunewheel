@@ -88,7 +88,7 @@ img.prize {
         0 0 0 1vw #fff,
         0 0 0 1.1vw #111;
 
-    transition: transform 10s ease-in-out;
+    transition: transform 10s ease-out;
 }
 
 .container .wheel .number {
